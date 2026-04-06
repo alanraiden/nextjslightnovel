@@ -379,20 +379,6 @@ export default function HomePage() {
   return (
     <PageLayout>
       <div className="home">
-        <div className="seo-hero-band">
-          <div className="container seo-hero-inner">
-            <div className="seo-hero-text">
-              <h1 className="seo-hero-title">Korean Novels</h1>
-              <p className="seo-hero-desc">Discover captivating Korean web novels, light novels, and manga translations. Immerse yourself in stories of romance, fantasy, action, and adventure.</p>
-            </div>
-            <div className="seo-hero-tags">
-              {['Korean Web Novels','Light Novels','Romance','Fantasy','Action','Isekai','Manhwa','Martial Arts','System','Regression'].map(tag => (
-                <span key={tag} className="seo-hero-tag">{tag}</span>
-              ))}
-            </div>
-          </div>
-        </div>
-
         <HeroSlider novels={featured} loading={loading}/>
 
         <div className="container home-sections">

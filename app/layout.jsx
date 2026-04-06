@@ -1,5 +1,5 @@
 import './globals.css';
-import { AuthProvider } from '../context/AuthContext';
+import { AuthProvider } from '@/context/AuthContext';
 import Script from 'next/script';
 
 export const metadata = {
